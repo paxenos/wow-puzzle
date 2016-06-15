@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Gnomeregan 8-Button Puzzle</title>
+		<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Friender Finder</div>
+				<div class="panel-body">
+					<div>
+						<button id="btn1" type="button" class="btn btn-primary-outline btn-lg" onClick="toggle(1)">1</button>
+						<button id="btn2" type="button" class="btn btn-primary-outline btn-lg" onClick="toggle(2)">2</button>
+						<button id="btn3" type="button" class="btn btn-primary-outline btn-lg" onClick="toggle(3)">3</button>
+						<button id="btn4" type="button" class="btn btn-primary-outline btn-lg" onClick="toggle(4)">4</button>
+						<button id="btn5" type="button" class="btn btn-primary-outline btn-lg" onClick="toggle(5)">5</button>
+						<button id="btn6" type="button" class="btn btn-primary-outline btn-lg" onClick="toggle(6)">6</button>
+						<button id="btn7" type="button" class="btn btn-primary-outline btn-lg" onClick="toggle(7)">7</button>
+						<button id="btn8" type="button" class="btn btn-primary-outline btn-lg" onClick="toggle(8)">8</button>
+					</div>
+					<div>
+						<p id="auditTrail"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
